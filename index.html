@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+          <style>
+           
+           p{
+               font-size: 14px;
+           }
+           legend{
+               background-color: rebeccapurple;
+               color: white;
+               padding: 5px;
+               border-radius: 10px 0px 10px 0px;
+           }
+          </style>
+</head>
+<body>
+    <header>
+    <!--<h3>Session LocalStorage</h3>-->
+    </header>
+    <fieldset style="width: 350px;margin:180px auto 10px auto;">
+        <legend>Registeration</legend>
+  <div class="row">
+    <label for="">Username</label>
+    <input type="text" id="username">
+    <label for="">Password</label>
+    <input type="text" minlength="8" id="password">
+   
+   </div>
+   <div class="row">
+       <button onclick="save()" class="btn col s12">Sign up</button>
+   </div>
+     <!--<table>
+            <thead>
+                <th>Session Storage Names</th>
+            </thead>
+           
+        </table>-->
+        <p id="h5"></p>
+    </fieldset>
+      <script src="app.js"></script>
+</body>
+</html>
